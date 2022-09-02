@@ -1,5 +1,9 @@
 @import "node_modules/bootstrap/scss/mixins/banner";
 @include bsBanner("");
+@font-face {
+    font-family: 'Poppins';
+    src: url("./assets/fonts/Poppins-Bold.ttf") format("ttf");
+}
 // scss-docs-start import-stack
 // Configuration
 @import "node_modules/bootstrap/scss/functions";
